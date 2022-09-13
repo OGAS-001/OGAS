@@ -9,5 +9,7 @@ OGAS（俄语：Общегосударственная автоматизиро�
 
 ## 计划中的任务:
 
-1. Object_No.001: point-to-point 的非对称加密通信
+1. Object_No.001: point-to-point 的非对称加密通信(TESTING)
+-中心化构件中
+2. socket-test: QUIC通信的测试
     
