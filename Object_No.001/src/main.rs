@@ -6,6 +6,7 @@ fn main(){
     /*
     2022.09.13
     测试成功,可以正常运行
+    Debian系列可能会需要安装:librust-curl-sys+openssl-sys-dev
     */
     let url = "mysql://root:password@ipaddr:port/database";
     let pool = Pool::new(url).unwrap(); // 获取连接池
