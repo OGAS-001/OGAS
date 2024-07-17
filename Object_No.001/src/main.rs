@@ -31,6 +31,7 @@ fn main(){
     测试成功,可以正常运行
     Debian: librust-curl-sys+openssl-sys-dev
     Arch: pkg-config openssl
+    sudo dnf install openssl-devel
     */
 
     let url: &str = "mysql://root:my-secret-pw@127.0.0.1:3306/test";
